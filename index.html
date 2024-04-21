@@ -115,7 +115,7 @@
                       Berlin startups
                     </div>
                   </div>
-                  <button class="buttons-new1">
+                  <button class="buttons-new1" id="buttonsNew1">
                     <b class="text1">More About Me</b>
                     <img class="icon" alt="" src="./public/icon.svg" />
                   </button>
@@ -571,6 +571,13 @@
         });
       }
       
+      var buttonsNew1 = document.getElementById("buttonsNew1");
+      if (buttonsNew1) {
+        buttonsNew1.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+
       var buttonsNew2 = document.getElementById("buttonsNew2");
       if (buttonsNew2) {
         buttonsNew2.addEventListener("click", function (e) {
