@@ -58,6 +58,7 @@
 }
 
 .label {
+  cursor: pointer;
   min-width: 50px;
   line-height: 23px;
   display: inline-block;
